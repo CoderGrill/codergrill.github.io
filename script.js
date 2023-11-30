@@ -65,8 +65,8 @@ const displayProfile = function (profile) {
                 <strong>Location:</strong> ${profile.location}
             </p>
             <p>
-                Repos: ${profile.public_repos}
-                Gists: ${profile.public_gists}
+                <strong>Repos:</strong> ${profile.public_repos}
+                <strong>Gists:</strong> ${profile.public_gists}
             </p>
         </div>
     `;
