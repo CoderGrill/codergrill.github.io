@@ -65,7 +65,6 @@ const displayProfile = function (profile) {
                 <strong>Location:</strong> ${profile.location}
             </p>
             <p>
-                <strong>@${profile.login} </strong>
                 Repos: ${profile.public_repos}
                 Gists: ${profile.public_gists}
             </p>
